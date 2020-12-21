@@ -1,0 +1,76 @@
+body {
+    background: #fff;
+    color: #333;
+    font-family: Lato, sans-serif;
+}
+
+
+
+/* Removes bullet points from list */
+#todo-list {
+    list-style-type: none;
+}
+
+/* Heading */
+/* Since body is wrapped in container class, the info below
+ controls all aspects of container*/
+.container {
+    display: block;
+    width: 400px;
+    margin: 100px auto 0;
+}
+
+.container
+
+/* Aligns list with container width */
+ul {
+    margin: 0;
+    padding: 0;
+
+}
+
+li * {
+    float: left;
+}
+
+li, h3 {
+    clear: both;
+    list-style: none;
+}
+
+label[for='todo-input-bar'] {
+    display: block;
+    margin: 0 0 20px;
+}
+
+/*!* Heading *!*/
+/*h3,*/
+/*label[for='todo-input-bar'] {*/
+/*    color: #333;*/
+/*    font-weight: 700;*/
+/*    font-size: 15px;*/
+/*    border-bottom: 2px solid #333;*/
+/*    padding: 30px 0 10px;*/
+/*    margin: 0;*/
+/*    text-transform: uppercase;*/
+/*}*/
+
+/*li > label {*/
+/*    font-size: 18px;*/
+/*    line-height: 40px;*/
+/*    width: 237px;*/
+/*    padding: 0 0 0 11px;*/
+/*}*/
+
+/*input {*/
+/*    margin: 0;*/
+/*    font-size: 18px;*/
+/*    line-height: 18px;*/
+/*    height: 18px;*/
+/*    padding: 10px;*/
+/*    border: 1px solid #ddd;*/
+/*    background: #fff;*/
+/*    border-radius: 6px;*/
+/*    font-family: Lato, sans-serif;*/
+/*    color: #888;*/
+/*}*/

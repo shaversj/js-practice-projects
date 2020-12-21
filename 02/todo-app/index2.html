@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<link rel="stylesheet" href="style2.css">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
+</head>
+<body>
+
+<div class="container">
+    <div class="parent-div d-flex align-items-center justify-content-center"
+         style="width: 1000px; height:1000px">
+        <div class="child-div " style="width: 400px; height:200px">
+            <div class="card-body">
+                <label for="new-todo">
+                    Add Item
+                </label>
+                <div class="input-group mb-3">
+                    <div class="input-group-prepend">
+                    </div>
+                    <input type="text" class="form-control" id="new-todo" placeholder="Todo" aria-label="Username"
+                           aria-describedby="basic-addon1">
+                    <button type="button" id="add-todo-button" class="btn btn-primary">Add</button>
+                </div>
+                <ul id="list" class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <input class="form-check-input me-1" type="checkbox" value="" aria-label="...">
+                        Cut the grass
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script2.js"></script>
+</body>
+</html>
