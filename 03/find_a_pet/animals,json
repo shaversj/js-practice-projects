@@ -1,0 +1,1399 @@
+data = {
+    "animals": [
+    {
+        "id": 50111924,
+        "organization_id": "UT214",
+        "url": "https:\/\/www.petfinder.com\/dog\/jingle-50111924\/ut\/herriman\/herriman-animal-services-ut214\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Dog",
+        "species": "Dog",
+        "breeds": {
+            "primary": "Husky",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": "Brown \/ Chocolate",
+            "secondary": "White \/ Cream",
+            "tertiary": null
+        },
+        "age": "Adult",
+        "gender": "Male",
+        "size": "Large",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": null,
+            "special_needs": false,
+            "shots_current": false
+        },
+        "environment": {
+            "children": null,
+            "dogs": true,
+            "cats": true
+        },
+        "tags": [],
+        "name": "Jingle",
+        "description": null,
+        "organization_animal_id": null,
+        "photos": [
+            {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50111924\/1\/?bust=1608657481&width=100",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50111924\/1\/?bust=1608657481&width=300",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50111924\/1\/?bust=1608657481&width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50111924\/1\/?bust=1608657481"
+            }
+        ],
+        "primary_photo_cropped": {
+            "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50111924\/1\/?bust=1608657481&width=300",
+            "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50111924\/1\/?bust=1608657481&width=450",
+            "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50111924\/1\/?bust=1608657481&width=600",
+            "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50111924\/1\/?bust=1608657481"
+        },
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:19:03+0000",
+        "published_at": "2020-12-22T17:19:03+0000",
+        "distance": null,
+        "contact": {
+            "email": "Dpedersen@herrimanpd.org",
+            "phone": "(801) 758-0080",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Herriman",
+                "state": "UT",
+                "postcode": "84096",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50111924"
+            },
+            "type": {
+                "href": "\/v2\/types\/dog"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ut214"
+            }
+        }
+    },
+    {
+        "id": 50112112,
+        "organization_id": "SK38",
+        "url": "https:\/\/www.petfinder.com\/dog\/blitzen-50112112\/sk\/regina\/prairie-sky-dog-rescue-sk38\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Dog",
+        "species": "Dog",
+        "breeds": {
+            "primary": "Husky",
+            "secondary": null,
+            "mixed": true,
+            "unknown": false
+        },
+        "colors": {
+            "primary": "Bicolor",
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Female",
+        "size": "Large",
+        "coat": "Medium",
+        "attributes": {
+            "spayed_neutered": false,
+            "house_trained": true,
+            "declawed": null,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": true,
+            "dogs": true,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Blitzen",
+        "description": "Blitzen is a big fluffy love bug. She loves being snuggled and falling asleep in her foster mom’s arms.",
+        "organization_animal_id": null,
+        "photos": [
+            {
+                "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50112112\/1\/?bust=1608657385&width=100",
+                "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50112112\/1\/?bust=1608657385&width=300",
+                "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50112112\/1\/?bust=1608657385&width=600",
+                "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50112112\/1\/?bust=1608657385"
+            }
+        ],
+        "primary_photo_cropped": {
+            "small": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50112112\/1\/?bust=1608657385&width=300",
+            "medium": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50112112\/1\/?bust=1608657385&width=450",
+            "large": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50112112\/1\/?bust=1608657385&width=600",
+            "full": "https:\/\/dl5zpyw5k3jeb.cloudfront.net\/photos\/pets\/50112112\/1\/?bust=1608657385"
+        },
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:17:38+0000",
+        "published_at": "2020-12-22T17:17:38+0000",
+        "distance": null,
+        "contact": {
+            "email": "prairieskydr@hotmail.com",
+            "phone": " ",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Regina",
+                "state": "SK",
+                "postcode": "S4V 1W1",
+                "country": "CA"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112112"
+            },
+            "type": {
+                "href": "\/v2\/types\/dog"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/sk38"
+            }
+        }
+    },
+    {
+        "id": 50112143,
+        "organization_id": "IA14",
+        "url": "https:\/\/www.petfinder.com\/cat\/koba-50112143\/ia\/des-moines\/animal-rescue-league-of-iowa-inc-ia14\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Medium Hair",
+            "secondary": null,
+            "mixed": true,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Adult",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Koba",
+        "description": "Primary Color: Brown Weight: 12.37lbs Age: 6yrs 0mths 0wks Animal has been Neutered",
+        "organization_animal_id": "195651",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:17:22+0000",
+        "published_at": "2020-12-22T17:17:22+0000",
+        "distance": null,
+        "contact": {
+            "email": "social@arl-iowa.org",
+            "phone": null,
+            "address": {
+                "address1": "5452 N.E. 22nd St.",
+                "address2": null,
+                "city": "Des Moines",
+                "state": "IA",
+                "postcode": "50313",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112143"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ia14"
+            }
+        }
+    },
+    {
+        "id": 50112139,
+        "organization_id": "CA1771",
+        "url": "https:\/\/www.petfinder.com\/cat\/frankincense-50112139\/ca\/atascadero\/woods-humane-society-north-county-ca1771\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": true,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Frankincense",
+        "description": "Primary Color: Brown Tabby Weight: 2.2lbs Age: 0yrs 0mths 8wks Animal has been Neutered",
+        "organization_animal_id": "37247",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:30+0000",
+        "published_at": "2020-12-22T17:16:30+0000",
+        "distance": null,
+        "contact": {
+            "email": "infonorth@woodshumanesociety.org",
+            "phone": "(805) 466-5403",
+            "address": {
+                "address1": "2300 Ramona Road",
+                "address2": null,
+                "city": "Atascadero",
+                "state": "CA",
+                "postcode": "93422",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112139"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ca1771"
+            }
+        }
+    },
+    {
+        "id": 50112125,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/pricilla-50112125\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Pricilla",
+        "description": "Came in as a stray and not reclaimed Primary Color: Brown Black Tabby Weight: 2.46lbs Age: 0yrs 0mths 10wks Animal...",
+        "organization_animal_id": "84616",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112125"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112126,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/daeva-50112126\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Daeva",
+        "description": "Came in as a stray and not reclaimed Primary Color: Grey Tabby Weight: 2.7lbs Age: 0yrs 0mths 10wks Animal has...",
+        "organization_animal_id": "84614",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112126"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112127,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/dog\/joy-50112127\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Dog",
+        "species": "Dog",
+        "breeds": {
+            "primary": "Rat Terrier",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Young",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": null,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Joy",
+        "description": "12\/21\/20: Joy is such a cutie. She is a sweet little dog that can be very shy with new people....",
+        "organization_animal_id": "84997",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112127"
+            },
+            "type": {
+                "href": "\/v2\/types\/dog"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112128,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/maui-50112128\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Maui",
+        "description": "Came in as an owner surrender (too many animals already), was not reclaimed. Primary Color: Orange Tabby Weight: 4.5lbs Age:...",
+        "organization_animal_id": "85016",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112128"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112129,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/marilyn-50112129\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Medium Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Marilyn",
+        "description": "came in as a stray - never reclaimed Primary Color: Black Secondary Color: White Weight: 3.5lbs Age: 0yrs 3mths 1wks...",
+        "organization_animal_id": "84953",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112129"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112130,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/kokomo-50112130\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Kokomo",
+        "description": "Came in as an owner surrender (too many animals already), was not reclaimed. Primary Color: Orange Tabby Weight: 4.9lbs Age:...",
+        "organization_animal_id": "85017",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112130"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112131,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/dog\/bryce-50112131\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Dog",
+        "species": "Dog",
+        "breeds": {
+            "primary": "German Shepherd Dog",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Young",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": null,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": false,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Bryce",
+        "description": "12\/21\/20: Bryce is such a handsome boy. He is a high-energy dog that is looking for a marathon training buddy....",
+        "organization_animal_id": "84993",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112131"
+            },
+            "type": {
+                "href": "\/v2\/types\/dog"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112132,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/sasha-50112132\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Adult",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Sasha",
+        "description": "Came in as an owner surrender (child is allergic), was not reclaimed. Primary Color: Brown Black Tabby Secondary Color: Orange...",
+        "organization_animal_id": "85009",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112132"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112134,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/oahu-50112134\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Oahu",
+        "description": "Came in as an owner surrender (too many animals already), was not reclaimed. Primary Color: Orange Tabby Weight: 4.2lbs Age:...",
+        "organization_animal_id": "85015",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112134"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112135,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/vanessa-50112135\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Young",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Vanessa",
+        "description": "came in as a stray - never reclaimed Primary Color: Brown Black Tabby Secondary Color: Orange Tabby Weight: 9.4lbs Age:...",
+        "organization_animal_id": "84995",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112135"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112136,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/dog\/sundance-50112136\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Dog",
+        "species": "Dog",
+        "breeds": {
+            "primary": "Siberian Husky",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Adult",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": null,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Sundance",
+        "description": "12\/21\/20: Sundance is such a happy guy. He is a sweet dog that is looking for an owner to help...",
+        "organization_animal_id": "84994",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112136"
+            },
+            "type": {
+                "href": "\/v2\/types\/dog"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112137,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/dog\/oliver-50112137\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Dog",
+        "species": "Dog",
+        "breeds": {
+            "primary": "Border Collie",
+            "secondary": null,
+            "mixed": true,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Young",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": null,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Oliver",
+        "description": "12\/22\/20: Oliver is such a happy boy. He is a high-energy dog that is looking for an active owner to...",
+        "organization_animal_id": "80090",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112137"
+            },
+            "type": {
+                "href": "\/v2\/types\/dog"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112138,
+        "organization_id": "NE161",
+        "url": "https:\/\/www.petfinder.com\/cat\/mistletoe-50112138\/ne\/lincoln\/capital-humane-society-ne161\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": false,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Young",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Mistletoe",
+        "description": "came in as a stray - never reclaimed Primary Color: Black Secondary Color: White Weight: 7.8lbs Age: 1yrs 6mths 1wks...",
+        "organization_animal_id": "84944",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:28+0000",
+        "published_at": "2020-12-22T17:16:28+0000",
+        "distance": null,
+        "contact": {
+            "email": null,
+            "phone": "(402) 441-4488",
+            "address": {
+                "address1": null,
+                "address2": null,
+                "city": "Lincoln",
+                "state": "NE",
+                "postcode": "68502",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112138"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/ne161"
+            }
+        }
+    },
+    {
+        "id": 50112124,
+        "organization_id": "SK11",
+        "url": "https:\/\/www.petfinder.com\/cat\/zara-star-50112124\/sk\/regina\/regina-humane-society-sk11\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Short Hair",
+            "secondary": null,
+            "mixed": true,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Baby",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Zara*",
+        "description": "Primary Color: Black\/orange Tortoiseshell Secondary Color: White Weight: 1.84kg Age: 0yrs 4mths 2wks Animal has been Spayed",
+        "organization_animal_id": "74738",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:16:09+0000",
+        "published_at": "2020-12-22T17:16:09+0000",
+        "distance": null,
+        "contact": {
+            "email": "rhs.adoptions@sasktel.net",
+            "phone": "306-543-6363",
+            "address": {
+                "address1": "P.O. Box 3143",
+                "address2": "Albert St. N. and Armour Road",
+                "city": "Regina",
+                "state": "SK",
+                "postcode": "S4P 3G7",
+                "country": "CA"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112124"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/sk11"
+            }
+        }
+    },
+    {
+        "id": 50112122,
+        "organization_id": "MI369",
+        "url": "https:\/\/www.petfinder.com\/dog\/gemma-50112122\/mi\/pontiac\/oakland-county-animal-shelter-and-pet-adoption-center-mi369\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Dog",
+        "species": "Dog",
+        "breeds": {
+            "primary": "Pit Bull Terrier",
+            "secondary": null,
+            "mixed": true,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Adult",
+        "gender": "Female",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": true,
+            "house_trained": false,
+            "declawed": null,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Gemma",
+        "description": "For my Petfinder.com friends, please contact the Shelter at (248) 858-1070 for more information. My ID number is 335823\n\nI...",
+        "organization_animal_id": "335823",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:15:57+0000",
+        "published_at": "2020-12-22T17:15:57+0000",
+        "distance": null,
+        "contact": {
+            "email": "petadoption@oakgov.com",
+            "phone": "(248) 858-1070",
+            "address": {
+                "address1": "1200 N. Telegraph",
+                "address2": "Building 42 East",
+                "city": "Pontiac",
+                "state": "MI",
+                "postcode": "48341",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112122"
+            },
+            "type": {
+                "href": "\/v2\/types\/dog"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/mi369"
+            }
+        }
+    },
+    {
+        "id": 50112121,
+        "organization_id": "ID49",
+        "url": "https:\/\/www.petfinder.com\/cat\/jaskier-31928-50112121\/id\/pocatello\/pocatello-animal-shelter-id49\/?referrer_id=bdec096d-cbbf-44ef-a4bb-8d044587b913",
+        "type": "Cat",
+        "species": "Cat",
+        "breeds": {
+            "primary": "Domestic Long Hair",
+            "secondary": null,
+            "mixed": true,
+            "unknown": false
+        },
+        "colors": {
+            "primary": null,
+            "secondary": null,
+            "tertiary": null
+        },
+        "age": "Adult",
+        "gender": "Male",
+        "size": "Medium",
+        "coat": null,
+        "attributes": {
+            "spayed_neutered": false,
+            "house_trained": false,
+            "declawed": false,
+            "special_needs": false,
+            "shots_current": true
+        },
+        "environment": {
+            "children": null,
+            "dogs": null,
+            "cats": null
+        },
+        "tags": [],
+        "name": "Jaskier 31928",
+        "description": "Primary Color: White Secondary Color: Grey Tabby Weight: 8.5lbs Age: 2yrs 0mths 0wks I am available for adoption at the...",
+        "organization_animal_id": "31928",
+        "photos": [],
+        "primary_photo_cropped": null,
+        "videos": [],
+        "status": "adoptable",
+        "status_changed_at": "2020-12-22T17:15:41+0000",
+        "published_at": "2020-12-22T17:15:41+0000",
+        "distance": null,
+        "contact": {
+            "email": "pokypets@pocatello.us",
+            "phone": "(208) 234-6156",
+            "address": {
+                "address1": "P.O. Box 4169",
+                "address2": "3100 Avenue of the Chiefs",
+                "city": "Pocatello",
+                "state": "ID",
+                "postcode": "83205",
+                "country": "US"
+            }
+        },
+        "_links": {
+            "self": {
+                "href": "\/v2\/animals\/50112121"
+            },
+            "type": {
+                "href": "\/v2\/types\/cat"
+            },
+            "organization": {
+                "href": "\/v2\/organizations\/id49"
+            }
+        }
+    }
+],
+    "pagination": {
+    "count_per_page": 20,
+        "total_count": 147756,
+        "current_page": 1,
+        "total_pages": 7388,
+        "_links": {
+        "next": {
+            "href": "\/v2\/animals?page=2"
+        }
+    }
+}
+}

@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Project Template</title>
+
+    <style type="text/css">
+        body {
+            margin-left: auto;
+            margin-right: auto;
+            max-width: 50em;
+            width: 88%;
+        }
+    </style>
+</head>
+<body>
+
+<h1>Find a Pet</h1>
+
+<div id="app"></div>
+
+
+<script>
+    let age = ["baby", "young", "adult", "senior"]
+    let gender = ["male", "female", "unknown"]
+    let petTypes = ["Dog", "Cat", "Rabbit", "Small & Furry", "Horse", "Bird", "Scales, Fins & Other", "Barnyard"]
+
+    let menus = ["ageMenu", "genderMenu", "typeOfPetMenu", "breedMenu", ];
+    let menuDescriptions = ["Age", "Gender", "Type", "Breed"]
+
+    let bodyDiv = document.getElementById("app");
+    let menuLayout = document.createElement("div");
+    let ig = document.createElement("div");
+    ig.id = "image-gallery";
+    menuLayout.id = "menuLayout";
+    bodyDiv.appendChild(menuLayout);
+    bodyDiv.appendChild(ig);
+
+    function createDropDownMenus(){
+        for(let i = 0; i < menus.length; i++){
+            let ml = document.getElementById("menuLayout")
+
+            // Create Label
+            let label = document.createElement("label");
+            label.setAttribute("for", menus[i]);
+            label.innerHTML = menuDescriptions[i];
+
+            // Create Input
+            let menu = document.createElement("input");
+            menu.type = "list";
+            menu.setAttribute("list", menus[i] + "-list")
+            menu.id = menus[i];
+
+
+            // Create Data List
+            let dl = document.createElement("datalist");
+            dl.id = menus[i] + "-list";
+
+
+
+
+            // Add to DOM
+            ml.appendChild(label);
+            ml.appendChild(dl);
+            ml.appendChild(menu);
+
+        }
+    }
+
+    function obtainTokenFromAPI(){
+        let key = "";
+        let secret = "";
+
+        fetch('https://api.petfinder.com/v2/oauth2/token', {
+            method: 'POST',
+            body: 'grant_type=client_credentials&client_id=' + key + '&client_secret=' + secret,
+            headers: {
+                'Content-Type': 'application/x-www-form-urlencoded',
+            }
+        }).then(function (resp) {
+
+            // Return the response as JSON
+            return resp.json();
+
+        }).then(function (data) {
+            let my_token = data["access_token"]
+            getAnimals(my_token)
+            // Log the API data
+            console.log('token', data);
+
+        }).catch(function (err) {
+
+            // Log any errors
+            console.log('something went wrong', err);
+
+        });
+    }
+
+    function getAnimals(token){
+        console.log('poop' + token)
+        let params = {type: "dog"};
+        fetch('https://api.petfinder.com/v2/animals?type=cat', {
+            method: 'GET',
+            headers: {
+                'Authorization': 'Bearer ' + token,
+            }
+        }).then(function (resp) {
+
+            // Return the response as JSON
+            return resp.json();
+
+        }).then(function (data) {
+
+            buildImageGallery(data)
+
+            // Log the API data
+            console.log('token', data);
+
+        }).catch(function (err) {
+
+            // Log any errors
+            console.log('something went wrong', err);
+
+        });
+    }
+
+    function populateAgeMenu(){
+        let ageMenu = document.getElementById('ageMenu-list');
+        for(let i = 0; i < age.length; i++){
+            ageMenu.innerHTML += '<option value="' + age[i] + '" />';
+        }
+    }
+
+    function populateGenerMenu(){
+        let genderMenu = document.getElementById('genderMenu-list');
+        for(let i = 0; i < gender.length; i++){
+            genderMenu.innerHTML += '<option value="' + gender[i] + '" />';
+        }
+    }
+
+    function populatePetTypeMenu(){
+        let typeMenu = document.getElementById('typeOfPetMenu-list');
+        for(let i = 0; i < petTypes.length; i++){
+            //console.log(pet);
+
+            typeMenu.innerHTML += '<option value="' + petTypes[i] + '" />';
+        }
+    }
+
+    function buildImageGallery(data){
+        console.log(data["animals"][0])
+        // Image Gallery
+        let ig = document.getElementById("image-gallery");
+
+        for(let i = 0; i < data["animals"].length; i++){
+             if (Object.keys(data["animals"][i]["photos"]).length === 0){
+                 continue
+             }
+             console.log(i, data["animals"][i]);
+             let photo_url = data["animals"][i]["photos"][0]["medium"];
+
+             let image = document.createElement("div");
+             image.className = "item";
+             image.innerHTML += '<img src="' + photo_url + '" />' + '<p>' + data["animals"][i]["description"] + '"</p>';
+             ig.appendChild(image);
+        }
+    }
+
+    createDropDownMenus();
+
+    populatePetTypeMenu();
+    populateAgeMenu();
+    populateGenerMenu()
+    obtainTokenFromAPI();
+
+    //let animals = getAnimals(token);
+    buildImageGallery();
+
+    // populate dropdown menus
+    // create list of dogs from list
+
+</script>
+
+</body>
+</html>
