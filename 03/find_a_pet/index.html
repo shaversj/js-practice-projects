@@ -66,62 +66,44 @@
         }
     }
 
-    function obtainTokenFromAPI(){
-        let key = "";
-        let secret = "";
 
-        fetch('https://api.petfinder.com/v2/oauth2/token', {
+    async function getToken() {
+        let key = "kAZMiUWQw2b0hHz5FcLsnvF0U4mxmB5iYVAbuZO1c3uYYVaHkJ";
+        let secret = "QDPQy1xoUk34hXMzkz0eHwqGZ84DXPqROSA8VK6E";
+
+        let response = await fetch('https://api.petfinder.com/v2/oauth2/token', {
             method: 'POST',
             body: 'grant_type=client_credentials&client_id=' + key + '&client_secret=' + secret,
             headers: {
                 'Content-Type': 'application/x-www-form-urlencoded',
             }
-        }).then(function (resp) {
-
-            // Return the response as JSON
-            return resp.json();
-
-        }).then(function (data) {
-            let my_token = data["access_token"]
-            getAnimals(my_token)
-            // Log the API data
-            console.log('token', data);
-
-        }).catch(function (err) {
-
-            // Log any errors
-            console.log('something went wrong', err);
-
         });
+
+        if (response.status === 200) {
+            let json = await response.json();
+            return json;
+        }
+
+        throw new Error(response.status);
     }
 
-    function getAnimals(token){
-        console.log('poop' + token)
-        let params = {type: "dog"};
-        fetch('https://api.petfinder.com/v2/animals?type=cat', {
+    async function getAnimals(token){
+        let response = await fetch('https://api.petfinder.com/v2/animals?type=dog', {
             method: 'GET',
             headers: {
                 'Authorization': 'Bearer ' + token,
             }
-        }).then(function (resp) {
-
-            // Return the response as JSON
-            return resp.json();
-
-        }).then(function (data) {
-
-            buildImageGallery(data)
-
-            // Log the API data
-            console.log('token', data);
-
-        }).catch(function (err) {
-
-            // Log any errors
-            console.log('something went wrong', err);
-
         });
+
+        if (response.status === 200) {
+            let json = await response.json();
+            return json;
+        }
+
+        throw new Error(response.status);
+
     }
+
 
     function populateAgeMenu(){
         let ageMenu = document.getElementById('ageMenu-list');
@@ -165,15 +147,25 @@
         }
     }
 
-    createDropDownMenus();
+    async function main(){
 
-    populatePetTypeMenu();
-    populateAgeMenu();
-    populateGenerMenu()
-    obtainTokenFromAPI();
+        ig.id = "image-gallery";
+        menuLayout.id = "menuLayout";
+        bodyDiv.appendChild(menuLayout);
+        bodyDiv.appendChild(ig);
 
-    //let animals = getAnimals(token);
-    buildImageGallery();
+        createDropDownMenus();
+        populatePetTypeMenu();
+        populateAgeMenu();
+        populateGenerMenu();
+
+        let result = await getToken();
+        let animals = await getAnimals(result["access_token"]);
+        buildImageGallery(animals);
+    }
+
+    main().catch(console.log);
+
 
     // populate dropdown menus
     // create list of dogs from list
