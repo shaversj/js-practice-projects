@@ -68,8 +68,8 @@
 
 
     async function getToken() {
-        let key = "kAZMiUWQw2b0hHz5FcLsnvF0U4mxmB5iYVAbuZO1c3uYYVaHkJ";
-        let secret = "QDPQy1xoUk34hXMzkz0eHwqGZ84DXPqROSA8VK6E";
+        let key = "";
+        let secret = "";
 
         let response = await fetch('https://api.petfinder.com/v2/oauth2/token', {
             method: 'POST',
@@ -80,8 +80,7 @@
         });
 
         if (response.status === 200) {
-            let json = await response.json();
-            return json;
+            return await response.json();
         }
 
         throw new Error(response.status);
@@ -96,8 +95,7 @@
         });
 
         if (response.status === 200) {
-            let json = await response.json();
-            return json;
+            return await response.json();
         }
 
         throw new Error(response.status);
