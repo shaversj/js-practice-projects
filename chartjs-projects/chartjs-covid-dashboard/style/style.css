@@ -1,0 +1,137 @@
+/*.dashboard {*/
+/*    height: 100px;*/
+/*    line-height: 100px;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.cumulative-hospitalizations  {*/
+
+/*    height: 150px;*/
+/*    width: 300px;*/
+/*    float: left;*/
+/*    padding: 25px 0;*/
+/*    border-style: solid;*/
+/*    text-align: center;*/
+/*    display: inline-block;*/
+/*    vertical-align: middle;*/
+
+/*}*/
+
+
+
+/*.age-range {*/
+/*    width: 400px;*/
+/*    height: 360px;*/
+/*    height: 45%;*/
+/*    display: inline-block;*/
+/*    margin-left: .5%;*/
+/*    border-style: solid;*/
+/*}*/
+
+
+body {
+    background: #73a5cc;
+}
+
+.heading {
+    margin-top: 30px;
+    font-size: 35px;
+    font-family: Arial, Verdana, sans-serif;
+    margin-bottom: 20px;
+}
+
+.column-1 {
+    float: left;
+
+
+}
+
+.column-2 {
+    float: left;
+}
+
+.cumulative-hospitalizations{
+    font-size: 30px;
+    font-family: Arial, Verdana, sans-serif;
+    border-color: black;
+    border-style: dashed;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.cumulative-hospitalizations-value {
+    font-size: 50px;
+    font-family: Arial, Verdana, sans-serif;
+
+}
+
+.median-age{
+    font-size: 30px;
+    font-family: Arial, Verdana, sans-serif;
+    border-color: black;
+    border-style: dashed;
+    margin-top: 5px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.median-age-value {
+    font-size: 50px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.counties-with-a-hospitalization{
+    font-size: 30px;
+    font-family: Arial, Verdana, sans-serif;
+    border-color: black;
+    border-style: dashed;
+    margin-top: 5px;
+    width: 500px;
+    height: 150px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.counties-with-a-hospitalization-value {
+    font-size: 50px;
+    font-family: Arial, Verdana, sans-serif;
+}
+
+.age-range {
+    margin-left: 5px;
+    width: 675px;
+    height: 200px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.sex {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 675px;
+    height: 150px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.race {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 675px;
+    height: 200px;
+    border-color: black;
+    border-style: dashed;
+}
+
+.ethnicity {
+    margin-left: 5px;
+    margin-top: 5px;
+    width: 675px;
+    height: 189px;
+    border-color: black;
+    border-style: dashed;
+}

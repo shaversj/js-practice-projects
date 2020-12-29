@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>State of Ohio | COVID - 19 Hospitalization Metrics</title>
+<!--    https://coronavirus.ohio.gov/wps/portal/gov/covid-19/dashboards/key-metrics/hospitalizations-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+<!--    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels"></script>-->
+
+    <link rel="stylesheet" type="text/css" href="style/style.css">
+</head>
+<body>
+<!--<div class="dashboard">-->
+<!--    <div class="left-dashboard">-->
+<!--        <div class="cumulative-hospitalizations">-->
+<!--            <span>Cumulative Hospitalizations</span>-->
+<!--            <div class="cumulative-hospitalizations-value" id="cumulative-hospitalizations-value">36,076</div>-->
+<!--        </div>-->
+<!--        <div class="age-range">-->
+<!--            <canvas id="age-range-chart"></canvas>-->
+<!--        </div>-->
+<!--    </div>-->
+<!--    <div class="right-dashboard">-->
+<!--    </div>-->
+
+
+<!--</div>-->
+
+<div class="heading"><strong>State of Ohio | </strong>COVID - 19 Hospitalization Metrics</div>
+
+<div class="column-1">
+    <div class="cumulative-hospitalizations">
+        <span>Cumulative Hospitalizations</span>
+        <div class="cumulative-hospitalizations-value" id="cumulative-hospitalizations-value"><strong>37,076</strong></div>
+    </div>
+    <div class="median-age">
+        <span>Median Age</span>
+        <div class="median-age-value" id="median-age-value"><strong>67</strong></div>
+    </div>
+    <div class="counties-with-a-hospitalization">
+        <span>Counties with a Hospitalization</span>
+        <div class="counties-with-a-hospitalization-value" id="counties-with-a-hospitalization-value"><strong>88</strong></div>
+    </div>
+</div>
+
+<div class="column-2">
+    <div class="age-range">
+        <canvas id="age-range-chart"></canvas>
+    </div>
+    <div class="sex">
+        <canvas id="sex-chart"></canvas>
+    </div>
+    <div class="race">
+        <canvas id="race-chart"></canvas>
+    </div>
+    <div class="ethnicity">
+        <canvas id="ethnicity-chart"></canvas>
+    </div>
+</div>
+<script src="js/script.js"></script>
+</body>
+</html>
