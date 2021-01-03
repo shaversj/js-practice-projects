@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Random Quote App</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <div class="quote-box">
+        <p id="quote">The three most useless jobs in the world in order are: lawyer, congressman, and doctor.</p>
+
+    </div>
+<script>
+    async function getRandomQuote(){
+        let response = await fetch("http://ron-swanson-quotes.herokuapp.com/v2/quotes", {
+            method: 'GET'
+        });
+        if (response.status === 200) {
+            return await response.json();
+        }
+        throw new Error(response.status);
+    }
+
+    async function main(){
+        let randomQuote = await getRandomQuote();
+        let quoteElement = document.getElementById('quote');
+        quoteElement.innerText = randomQuote;
+    }
+    main()
+</script>
+</body>
+</html>
