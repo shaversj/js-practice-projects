@@ -1,0 +1,30 @@
+div.content-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content {
+    background-color: #eeeff2;
+    font-family: Tahoma, serif;
+    font-size: 40px;
+    width: 100px;
+    height: 150px;
+    border-left: dotted 10px #D0D0FF;
+    padding-left: 10px;
+    text-align: left;
+    margin-right: 10px;
+}
+
+.content:hover {
+    font-family: goldenrod, serif;
+    background-color: yellow !important;
+    cursor: pointer !important;
+}
+
+div.content-container *:last-child {
+    margin-left: auto;
+    align-self: flex-end !important;
+
+}
